@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  color: hsl(215, 51%, 70%);
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 5rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  max-width: 350px;
+  min-width: 321px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5), -5px -5px 25px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+main,
+img {
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+p.col {
+  display: inline-block;
+}
+
+.ethereum {
+  width: 10%;
+}
+
+.ethereum-p {
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  width: 20%;
+}
+
+.ethereum,
+.clock,
+.profile-image {
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.ethereum-row {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 16px;
+}
+
+.profile-image {
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 10%;
+}
