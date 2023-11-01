@@ -24,6 +24,7 @@ main {
   max-width: 350px;
   min-width: 321px;
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5), -5px -5px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
 }
 
 .image-container{
